@@ -35,14 +35,7 @@ def run(playwright: Playwright, max_iterations: int, reviews_filename: str) -> N
 
         page = context.new_page()
         page.goto(START_URL)
-        page.get_by_role("link", name="Password").click()
-        page.get_by_placeholder("Your password").fill("Stair@1010")
-        page.get_by_placeholder("Your password").press("Enter")
-
-        page.goto(link)
-        page.evaluate('''() => { window.scrollTo(0, document.body.scrollHeight); }''')
-
-        review = reviews.pop(0)  # Get and remove the first review from the list
+        
         page.get_by_role("button", name="Write a review").click()
         page.get_by_placeholder("Enter your title").fill(review['Title'])
         page.get_by_placeholder("Enter your message").fill(review['Body'])
