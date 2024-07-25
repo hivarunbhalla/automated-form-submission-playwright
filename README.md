@@ -13,7 +13,7 @@ This Python script automates the process of submitting reviews to a website usin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone [https://github.com/yourusername/your-repo.git](https://github.com/hivarunbhalla/automated-review-submission-playwright.git)
    cd your-repo
 
 2. Install dependencies:
