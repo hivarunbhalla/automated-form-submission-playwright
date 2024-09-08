@@ -2,6 +2,10 @@
 
 This Python script automates the process of submitting reviews to a website using Playwright. It reads reviews from a CSV file and submits them one by one.
 
+## Disclaimer
+
+This script is intended for educational purposes only. It is designed to demonstrate how to automate review submissions using Playwright and is not intended for use in any production environment or for any unauthorized activities. Misuse of this script may violate the terms of service of the website or platform you are interacting with. Always ensure that you have permission from the website owner before using this script in any live setting.
+
 ## Prerequisites
 
 - Python 3.6 or above
